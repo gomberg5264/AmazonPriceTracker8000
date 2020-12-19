@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*.commodity_url {
+    cursor: pointer;
+}*/
+
+.hidden_id {
+    display: none;
+}
+
+.commodity_title {
+    font-size: 200%;
+}
+
+.table tbody tr td{
+    vertical-align: middle;
+}
+
+.table tbody tr td input {
+    display: table-cell;
+    width: 88%;
+    margin-right: 1rem;
+}

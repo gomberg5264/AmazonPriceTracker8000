@@ -1,0 +1,27 @@
+{
+  "name": "amazonpricetracker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "chart.js": "^2.7.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "forever": "^0.15.3",
+    "moment": "^2.22.2",
+    "morgan": "~1.9.0",
+    "mysql2-db": "0.0.4",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "superagent": "^3.8.0"
+  }
+}

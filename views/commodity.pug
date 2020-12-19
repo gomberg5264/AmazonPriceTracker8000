@@ -1,0 +1,20 @@
+extends layout
+block scripts
+  script(src="/javascripts/base.js")
+  script(src="/javascripts/commodity.js")
+  script(src='/javascripts/chartjs/Chart.bundle.js')  
+  script(src='/javascripts/chartjs/utils.js')
+
+block style
+  link(rel='stylesheet', href='/stylesheets/commodity.css')
+
+block content
+  .main.container
+    a(class='commodity_title')= title
+    p(class='hidden_id')= id
+
+    //- table(class='table table-striped')
+    //-   tbody(id='commodity_tbody')
+    //-     tr
+    //-       th Price
+    //-       th Date
